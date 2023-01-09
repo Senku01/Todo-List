@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Header from './Header'
-
+import App from '../App.css'
 let globalID = 0
 function Apps() {
   const [task,setTask] = useState('')
